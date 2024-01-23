@@ -1,0 +1,68 @@
+name: weather
+description: "Najot Ta'lim o'quv markazi"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  gap: ^3.0.1
+  flutter_bloc: ^8.1.3
+  dio: ^5.4.0
+  get_it: ^7.6.7
+  shared_preferences: ^2.2.2
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family:
+      fonts:
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-SemiBold.ttf
+        - asset: assets/font/Poppins-Bold.ttf
+        - asset: assets/font/Poppins-Black.ttf
+        - asset: assets/font/Poppins-BlackItalic.ttf
+        - asset: assets/font/Poppins-ExtraBold.ttf
+        - asset: assets/font/Poppins-ExtraBoldItalic.ttf
+        - asset: assets/font/Poppins-ExtraBoldLight.ttf
+        - asset: assets/font/Poppins-ExtraBoldLightItalic.ttf
+        - asset: assets/font/Poppins-BoldItalic.ttf
+        - asset: assets/font/Poppins-Italic.ttf
+        - asset: assets/font/Poppins-Medium.ttf
+        - asset: assets/font/Poppins-MediumItalic.ttf
+        - asset: assets/font/Poppins-Thin.ttf
+        - asset: assets/font/Poppins-ThinItalic.ttf
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-Light.ttf
+        - asset: assets/font/Poppins-LightItalic.ttf
+        - asset: assets/font/Poppins-SemiBoldItalic.ttf
+
+
+
